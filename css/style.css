@@ -1,0 +1,304 @@
+body{
+	margin:0;
+}
+.inr_header{
+	width:95%;	
+	padding: 10px 0;
+	margin:0 auto;
+	
+}
+
+header{
+	width:100%;
+	position:fixed;
+	z-index:1;
+	background-color: white;
+	box-shadow: 0 0 0 1px #dcdcdc;
+}
+#banner{ 	
+	height: 400px;
+	background-image: url("../images/banner.jpg");
+	background-size:cover;
+	text-align:center;
+	padding-top:100px;
+}
+h1,h2,h3,h4,p,a{
+	font-family:"Segoe UI",Arial,sans-serif;
+}
+h1,h2,h3,h4{
+	text-transform:uppercase;
+	font-weight:normal;
+}
+header a{
+	text-decoration:none;
+	display:inline-block;
+	color:Black;
+	font-size:20px;
+	
+ }
+nav{
+	float:right;
+ }
+nav a{
+	padding: 0 10px;
+	font-size:15px;
+}
+#sign_up{
+	background-color: #538cc6;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5%;
+	
+}
+h1{
+	font-size:50px;
+	font-weight: normal;
+    color: white;
+    letter-spacing: 8px;
+	margin-bottom:0;
+}
+#banner p{
+	color:white;
+	margin-bottom: 0;
+}
+.button{
+	background-color: transparent;
+    padding: 10px;
+    width: 15%;
+	font-size: medium;
+	color:white;
+	border-radius:5%;
+	border: 1px solid white;
+	margin:40px 0;
+}
+.button1{
+	background-color:#538cc6;
+	border:none;
+	margin:0;
+}
+#services{
+	padding:50px 0;
+	text-align:center;
+}
+.inr_services,.inr_desc,.inr_div{
+	width: 90%;
+   	margin: 0 auto;
+	display:flex;
+	justify-content: space-between;
+}
+#services h2{
+	margin-bottom:0;	
+}
+.inr_services div{
+	width: 27%;
+    display: inline-block;
+    border: 1px solid #DCDCDC;
+    padding: 40px 22px;
+	margin:30px 0;
+	border-radius:2%;
+} 
+.serv{
+	font-size:30px !important;
+	color:white;
+	background-color:#538cc6;
+	padding:30px;
+	border-radius:100%;
+	box-shadow: 0 0 0 10px #fff, 0 0 0 11px #dcdcdc;
+	margin-bottom:30px;
+	
+}
+
+#description{
+	padding:50px 0;
+	text-align:center;
+	background-color:#1a1a00;
+	color:white;
+}
+
+
+.inr_desc article{
+	width:48%;
+	display:inline-block;
+	padding:35px 0;
+	
+}
+ img{
+	width:100%;
+	border-radius: 1%;
+}
+
+.inr_desc button{
+	width: 30%;
+    margin: 20px;
+}
+
+#about{
+	padding:50px 0;
+}
+#left_div{
+	width:65%;
+	display:inline-block;
+}
+#right_div{
+	width:30%;
+	display:inline-block;
+	
+	
+}
+#sidebar_1,#sidebar_2{
+	width:100%;
+	display:block;
+}
+#sidebar_1{
+	border-bottom:1px solid #dcdcdc;
+	padding-bottom:20px;
+}
+#sidebar_2 a{
+	font-size:1em;
+}
+#sidebar_1 button{
+	color:black;
+	width:55%;
+	border:1px solid #dcdcdc;
+	margin:20px 0;
+}
+ul{
+	list-style:none;
+	padding:0;
+}
+li{
+	padding:10px 0;
+	border-bottom:1px solid #dcdcdc;
+	color:#538cc6;
+}
+a{
+	color:#538cc6;
+}
+
+footer{
+	padding:50px 0;
+	background-color: #f2f2f2;
+}
+.foot{
+	width: 90%;
+   	margin: 0 auto;
+	padding-bottom:40px;
+	display: flex;
+    justify-content: space-between;
+}
+.foot a,#end a{
+	color:black;
+}
+#left,#middle{
+	width:20%;
+	display:inline-block;
+}
+
+#right{
+	width:45%;
+	display:inline-block;
+	padding-left:50px;
+	
+}
+#right p{
+	text-align:left;
+	padding:0;
+}
+#right li{
+	border:none;
+	display:inline;
+	padding-right:10px;
+	
+}
+.social{
+	color:gray;
+}
+#end ul{
+	text-align:center;
+	padding:0 20px;
+	border:none;
+}
+.no_border{
+	border:none;
+}
+#end li{
+	display:inline-block;
+	border:none;
+	border-right:1px solid #dcdcdc;
+	color:black;
+	padding:0 10px ;
+}
+#end {
+	text-align:center;
+}
+
+
+/* For mobile version */
+
+@media (max-width:768px){
+	.button,.inr_desc button{
+		width:40%;
+		padding:10px 0;
+	}
+	.inr_services,.inr_div,.inr_desc{
+		flex-wrap: wrap;
+	}
+	div#galary,div#sync,div#settings{
+		display:block;
+		width: 100%;
+    	text-align: center;
+		padding: 50px 0;
+		
+	}
+	.serv{
+		box-shadow: 0 0 0 3px #fff, 0 0 0 10px #dcdcdc;
+		font-size:50px !important;
+	}
+	.inr_services div p{
+		padding: 0 20px;
+	}
+	#desc_1{
+		width:100%;
+		display: block;
+		padding:20px 0;
+	}
+	#desc_2{
+		width:100%;
+		display: block;
+		padding:20px 0;
+		margin:0;
+	}
+	#description img,#about img{
+		width:100%;
+	}
+	#left_div,#right_div{
+		width:100%;
+	}
+	#sidebar_1,#sidebar_2{
+		width:100%;
+	}
+	#sidebar_1 .button{
+		width:40%;
+	}
+	.foot{
+		flex-wrap:wrap;
+	}
+	#left,#middle{
+		width:48%;
+		display:inline-block;
+	}
+	#right{
+		width:100%;
+		display:block;
+		padding:0;
+	}
+	#end ul{
+		border:none;
+		text-align:left;
+	}
+	#end li{
+		display:block;
+		padding:10px;
+		border:none;
+	}
+}
